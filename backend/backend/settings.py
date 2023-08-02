@@ -1,5 +1,4 @@
 import os
-
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -119,7 +118,7 @@ STATIC_URL = '/static/'
 # в контейнере это будет /app/collected_static
 STATIC_ROOT = BASE_DIR / 'collected_static'
 # Теперь при вызове команды python manage.py collectstatic
-# Django будет копировать все статические файлы в директорию collected_static 
+# Django будет копировать все статические файлы в директорию collected_static
 
 
 # Default primary key field type
