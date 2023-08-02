@@ -1,0 +1,11 @@
+# Файл .dockerignore
+venv
+.git
+db.sqlite3
+
+# Файлы IDE
+.idea
+.vscode
+
+# Файлы с переменными окружения
+.env
