@@ -28,7 +28,6 @@ jobs:
         # Если её не будет, то тесты могут запуститься раньше, чем сервер PostgreSQL
         # В результате тесты опять решат, что базы нет, — и упадут
         options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
-    
     steps:
       # Копируем код проекта
       - name: Check out code
